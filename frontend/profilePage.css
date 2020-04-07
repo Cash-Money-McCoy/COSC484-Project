@@ -1,0 +1,25 @@
+#topMenu {
+    display: block;
+    background-color: black;
+    width: 100%;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#profileInfo {
+    display: inline;
+    margin-right: 100px;
+    border-spacing: 20px;
+    background-color: black;
+}
+
+#bioInfo {
+    display: inline;
+    margin-left: 100px;
+    border-spacing: 20px;
+    background-color: black;
+}
