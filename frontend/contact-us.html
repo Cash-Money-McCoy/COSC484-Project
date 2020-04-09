@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="DarkMode.css">
+    <link rel="icon" href="EXERFavicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="contact-us.css">
+</head>
+
+
+<body>
+
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+      <em>Dark Mode</em>
+    </div>
+
+  <script src="DarkMode.js"></script>
+
+    <script lang="javascript" type="text/javascript" src="header.txt"></script>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Leave us some Feedback:</h2>
+        </div>
+
+        <div class="col">
+      <form action="/" method="POST" id="contact-form" onsubmit="">
+        <fieldset>
+        <label for="name" >Name:</label>
+        <input type ="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type ="text" id="email" required>
+        
+        <label for="subject">Subject:</label>
+        <input type ="text" id="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message here:" required></textarea>
+
+        <button type="submit"> Send </button>
+        </fieldset>
+
+      </form>
+      </div>
+    </div>
+  </div>
+
+    <script lang="javascript" type="text/javascript" src="footer.txt"></script>     
+
+</body>
+</html>
