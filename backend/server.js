@@ -19,7 +19,7 @@ app.use(cors({ origin: true }));
 
 // API
 const apiRoute = require('./api.route');
-app.use('/', apiRoute);
+app.use('/api', apiRoute);
 
 // PORT
 const port = process.env.PORT || 3000;
